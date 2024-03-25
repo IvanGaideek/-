@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>{{ name }}</h2>
+    <div class="image-container">
+      <img src="{{ photo }}" alt="Тут картинка члена экипажа" width="80%" height="80%">
+    </div>
+    <p style="text-align: center;">{{ specialties }}</p>
+{% endblock %}
